@@ -278,7 +278,7 @@ all_trajecs_Xplot <- all_trajecs_Iplot + aes(y = X) +
   labs(y = TeX("Number of un-infective aphids $(X)$"),
        title = "(b)")
 
-# b) Z trajectories
+# c) Z trajectories
 all_trajecs_Zplot <- all_trajecs_Iplot + aes(y = Z) +
   labs(y = TeX("Number of infective aphids $(Z)$"),
        title = "(c)")
